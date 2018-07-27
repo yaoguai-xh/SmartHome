@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>inside.png</file>
+        <file>qss.txt</file>
+    </qresource>
+</RCC>

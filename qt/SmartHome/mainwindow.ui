@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1028</width>
+    <height>562</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SmartHome</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label_img">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>50</y>
+      <width>640</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="lineWidth">
+     <number>2</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>301</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_10">
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_10">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>ip:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_ip">
+         <property name="text">
+          <string>192.168.2.249</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_11">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>port:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="lineEdit_port">
+         <property name="text">
+          <string>8888</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_conn">
+       <property name="text">
+        <string>连接</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_15">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>温度：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_tem">
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_17">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>湿度：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_hum">
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_16">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="text">
+          <string>光照：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_light">
+         <property name="frameShape">
+          <enum>QFrame::Box</enum>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_8">
+       <item>
+        <widget class="QPushButton" name="pushButton_img">
+         <property name="text">
+          <string>传图</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_env">
+         <property name="text">
+          <string>传环境</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QPushButton" name="pushButton_openled">
+         <property name="text">
+          <string>开灯</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_closeled">
+         <property name="text">
+          <string>关灯</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <item>
+        <widget class="QPushButton" name="pushButton_openfan">
+         <property name="text">
+          <string>风扇开</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_closefan">
+         <property name="text">
+          <string>风扇关</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_12">
+       <item>
+        <widget class="QPushButton" name="pushButton_openbeep">
+         <property name="text">
+          <string>蜂鸣器开</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_closebeep">
+         <property name="text">
+          <string>蜂鸣器关</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_18">
+       <item>
+        <widget class="QLabel" name="label_7">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>FPS：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_fps">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_19">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>提示：</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_tips">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+   <zorder>label_img</zorder>
+   <zorder>layoutWidget</zorder>
+   <zorder>pushButton_openbeep</zorder>
+   <zorder>pushButton_closebeep</zorder>
+   <zorder>pushButton_openfan</zorder>
+   <zorder>pushButton_closefan</zorder>
+   <zorder>pushButton_openled</zorder>
+   <zorder>pushButton_closeled</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_tips</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_fps</zorder>
+   <zorder>pushButton_img</zorder>
+   <zorder>pushButton_env</zorder>
+   <zorder>pushButton_closeled</zorder>
+   <zorder>pushButton_openled</zorder>
+   <zorder>pushButton_closebeep</zorder>
+   <zorder>pushButton_openbeep</zorder>
+   <zorder>pushButton_openfan</zorder>
+   <zorder>pushButton_closefan</zorder>
+   <zorder>lineEdit_ip</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_5</zorder>
+   <zorder>lineEdit_port</zorder>
+   <zorder>pushButton_conn</zorder>
+   <zorder>label_tem</zorder>
+   <zorder>label</zorder>
+   <zorder>label_hum</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_light</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_hum</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label</zorder>
+   <zorder>label_tem</zorder>
+   <zorder>pushButton_closebeep</zorder>
+   <zorder>pushButton_openbeep</zorder>
+   <zorder>pushButton_closefan</zorder>
+   <zorder>pushButton_openfan</zorder>
+   <zorder>pushButton_openled</zorder>
+   <zorder>pushButton_closeled</zorder>
+   <zorder>pushButton_env</zorder>
+   <zorder>pushButton_img</zorder>
+   <zorder>label_7</zorder>
+   <zorder>label_fps</zorder>
+   <zorder>label_6</zorder>
+   <zorder>label_tips</zorder>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

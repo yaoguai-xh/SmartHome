@@ -1,0 +1,2 @@
+sudo service tftpd-hpa restart
+tftp -g -r armserver 192.168.2.145
